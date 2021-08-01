@@ -1,0 +1,99 @@
+@font-face {
+    src: url(fonts/FantaisieArtistique/FantaisieArtistique.ttf);
+    font-family: witcher;
+}
+
+@font-face {
+    font-family: wonderland;
+    src: url(fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
+}
+
+@font-face {
+    font-family: witcher-videogame;
+    src: url(fonts/WitcherVideogame/Thewitcher-jnOj.ttf);
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-image: url(images/witcher-homepage-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+}
+
+.sections-header
+{
+    font-family: witcher-videogame;
+    margin: 0;
+}
+
+.sections-list
+{
+    font-family: witcher-videogame;
+    font-size: 20px;
+    margin: 0;
+}
+
+.homepage-title
+{
+    margin: 0 auto;
+    font-family: witcher;
+    font-size: 45px;
+    color: rgb(189, 0, 0);
+    font-stretch: extra-expanded;
+}
+
+.homepage-title .witcher-transparent-logo
+{
+    bottom: 0;
+    background: rgba(231, 228, 228, 0.342);
+    color: rgba(197, 0, 0, 0.671);
+    border-radius: 5px;
+    border-style:hidden;
+}
+
+.sections-list .homepage-sections-icons
+{
+    height: 20px;
+    width: 20px;
+}
+
+.sections-list-buttons
+{
+    border: none;
+    background-color: inherit;
+    font-family: witcher-videogame;
+    font-size: 20px;
+    color: rgb(228, 195, 5);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sections-list :hover
+{
+    background-color: rgba(151, 11, 1, 0.74);
+}
