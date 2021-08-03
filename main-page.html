@@ -9,6 +9,17 @@
 </head>
 <body>
 
+    <script type="text/javascript" src="main-page-script.js"></script>
+
+    
+
+
+    <!--<audio id="source" autoplay loop>
+        <source src="C:\Users\user\AngularProjects\The ModernWitcher's Journal\audio\pages\home-page-theme.mp3">
+    </audio>-->
+
+
+
     <div class="container">
   
         <br>
@@ -24,22 +35,21 @@
         <div class="transparent-center-div">
 
             <br>
-            <h2 class="sections-header">Sections</h2>
+            <h2 class="sections-header">Chapters</h2>
             <br>
 
             <p class="sections-list">
-                <button class="sections-list-buttons">Bestiary</button>
+                <button class="sections-list-buttons" id="bestiary" onClick="bestiaryClicked()">Bestiary</button>
                 <br>
-                <button class="sections-list-buttons">The Signs</button>
+                <button class="sections-list-buttons" id="signs" onClick="signsClicked()">The Signs</button>
                 <br>
-                <button class="sections-list-buttons">Alchemy</button>
+                <button class="sections-list-buttons" id="alchemy" onclick="alchemyClicked()">Alchemy</button>
                 <br>
-                <button class="sections-list-buttons">Map</button>
+                <button class="sections-list-buttons" id="map" onclick="mapClicked()">Map</button>
             </p>
             <br>
             <br>
         </div>
-
     </div>
 
 </body>

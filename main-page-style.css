@@ -40,9 +40,9 @@ html, body
     border-radius: 1cm;
     margin-left: 12cm;
     margin-right: 12cm;
-    margin-top: 3cm;
-    padding-top: 0.5cm;
-    padding-bottom: 0.5cm;
+    margin-top: 3.5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
     padding-right: 10%;
     padding-left: 10%;
     display: inline-block;
@@ -96,6 +96,7 @@ html, body
     color: rgb(228, 195, 5);
     cursor: pointer;
     display: inline-block;
+    border-radius: 1cm;
 }
 
 .sections-list :hover
@@ -103,7 +104,62 @@ html, body
     background-color: rgba(151, 11, 1, 0.74);
 }
 
+.sections-list :active
+{
+    background-color: rgb(121, 8, 0);;
+}
+
 /*-----------------------MEDIA QUERIES BASED ON WIDTH FOR COMPUTERS(some mobiles included by coincidence)--------------------------------------*/
+
+@media screen and (width: 2560px) and (height: 1345px)
+{
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 100px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 20cm;
+        margin-right: 20cm;
+        margin-top: 8cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 80px;
+        width: 80px;
+    }
+
+    .sections-header
+    {
+        font-size: 50px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 35px;
+    }
+}
 
 @media screen and (max-width: 1260px) { /* max height 672 */
     .container .transparent-center-div
@@ -249,6 +305,25 @@ html, body
 }
 }
 
+@media screen and (width: 1024px) and (height: 538px)
+{
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 2cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
 @media screen and (max-width: 950px) 
 {
     .container .transparent-center-div
@@ -282,6 +357,14 @@ html, body
         padding-bottom: 0.5cm;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (width: 768px) and (height: 538px)
+{
+    .container .transparent-center-div
+    {
+        margin-top: 2cm;
     }
 }
 
@@ -420,6 +503,14 @@ html, body
     }
 }
 
+@media screen and (width: 425px) and (height: 538px)
+{
+    .container .transparent-center-div
+    {
+        margin-top: 3cm;
+    }
+}
+
 @media screen and (max-width: 410px) 
 {
 
@@ -473,6 +564,22 @@ html, body
     
 }
 
+@media screen and (width: 375px) and (height: 538px)
+{
+    .container .transparent-center-div
+    {
+        margin-top: 2.5cm;
+    }
+}
+
+@media screen and (width: 320px) and (height: 538px)
+{
+    .container .transparent-center-div
+    {
+        margin-top: 2.5cm;
+    }
+}
+
 @media screen and (max-width: 295px) 
 {
 
@@ -511,7 +618,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 0cm;
+        margin-top: 5cm;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -552,7 +659,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 6cm;
+        margin-top: 5.8cm;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -662,7 +769,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 4cm;
+        margin-top: 4.5cm;
         padding-top: 1cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -723,8 +830,8 @@ html, body
         margin-left: 4cm;
         margin-right: 4cm;
         margin-top: 7cm;
-        padding-top: 1cm;
-        padding-bottom: 1cm;
+        padding-top: 1.5cm;
+        padding-bottom: 1.5cm;
         display: flex;
         flex-direction: column;
     }

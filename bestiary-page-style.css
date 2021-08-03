@@ -1,0 +1,72 @@
+@font-face {
+    src: url(fonts/FantaisieArtistique/FantaisieArtistique.ttf);
+    font-family: witcher;
+}
+
+@font-face {
+    font-family: wonderland;
+    src: url(fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
+}
+
+@font-face {
+    font-family: witcher-videogame;
+    src: url(fonts/WitcherVideogame/Thewitcher-jnOj.ttf);
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-image: url(images/witcher-bestiary-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.homepage-title
+{
+    margin: 0 auto;
+    font-family: witcher;
+    font-size: 45px;
+    color: rgb(189, 0, 0);
+    font-stretch: extra-expanded;
+}
+
+.homepage-title .witcher-transparent-logo
+{
+    bottom: 0;
+    /*background: rgba(231, 228, 228, 0.342);*/
+    color: rgba(197, 0, 0, 0.671);
+    border-radius: 5px;
+    border-style:hidden;
+    height: 30px;
+    width: 30px;
+}
+
+.grid-col
+{
+    display:grid;
+    grid-template-columns: repeat(2, 250px);
+}
+
+div .cell
+{
+    background-image: url(/images/icons/witcher-bestiary-beasts.webp/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.555);
+    border: 1px solid rgb(187, 0, 0);
+    border-radius: 1cm;
+    padding: 10px;
+    margin: 30px;
+    height: 200px;
+}
