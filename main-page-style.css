@@ -43,6 +43,9 @@ html, body
     margin-top: 3cm;
     padding-top: 0.5cm;
     padding-bottom: 0.5cm;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: inline-block;
 }
 
 .sections-header
@@ -74,6 +77,8 @@ html, body
     color: rgba(197, 0, 0, 0.671);
     border-radius: 5px;
     border-style:hidden;
+    height: 30px;
+    width: 30px;
 }
 
 .sections-list .homepage-sections-icons
@@ -96,4 +101,798 @@ html, body
 .sections-list :hover
 {
     background-color: rgba(151, 11, 1, 0.74);
+}
+
+/*-----------------------MEDIA QUERIES BASED ON WIDTH FOR COMPUTERS(some mobiles included by coincidence)--------------------------------------*/
+
+@media screen and (max-width: 1260px) { /* max height 672 */
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 9%;
+    padding-left: 9%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1230px) {
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 8%;
+    padding-left: 8%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1221px) {
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 7%;
+    padding-left: 7%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1201px) {
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 7%;
+    padding-left: 7%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1173px) {
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 6%;
+    padding-left: 6%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1145px) {
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: inline-block;
+}
+}
+
+@media screen and (max-width: 1120px)
+{
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 1096px)
+{
+    .container .transparent-center-div
+{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.342);
+    color: rgb(228, 195, 5);
+    border-radius: 1cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 950px) 
+{
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 8cm;
+        margin-right: 8cm;
+        margin-top: 3cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 785px) 
+{
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 6cm;
+        margin-right: 6cm;
+        margin-top: 3cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) 
+{
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 5cm;
+        margin-right: 5cm;
+        margin-top: 3cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 633px) 
+{
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 40px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+}
+
+@media screen and (max-width: 570px) 
+{
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 35px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        margin-top: 3.3cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 570px) 
+{
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 30px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 25px;
+        width: 25px;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 3cm;
+        margin-right: 3cm;
+        margin-top: 3.3cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 442px) 
+{
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 25px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 20px;
+        width: 20px;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 3cm;
+        margin-right: 3cm;
+        margin-top: 4cm;
+        padding-top: 0.3cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 410px) 
+{
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-top: 4cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 380px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 20px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+}
+
+@media screen and (max-width: 380px) 
+{
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 4cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 295px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 15px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+/*------------------------------MEDIA QUERIES FOR REMAINING MOBILE DEVICES-------------------------------*/
+
+@media screen and (width: 411px) and (height: 731px) 
+{
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 0cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (width: 411px) and (height: 823px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 27px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 25px;
+        width: 25px;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 6cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (width: 320px) and (height: 568px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 21px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 18px;
+        width: 18px;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 3.5cm;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .sections-header
+    {
+        font-size: 20px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (width: 375px) and (height: 667px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 22px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 18px;
+        width: 18px;
+    }
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 4cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (width: 414px) and (height: 736px) 
+{
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 4cm;
+        padding-top: 1cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (width: 375px) and (height: 812px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 25px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-top: 5.5cm;
+        padding-top: 1cm;
+        padding-bottom: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (width: 768px) and (height: 1024px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 50px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        margin-top: 7cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sections-header
+    {
+        font-size: 35px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (width: 1024px) and (height: 1366px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 70px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        margin-top: 9.5cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 60px;
+        width: 60px;
+    }
+
+    .sections-header
+    {
+        font-size: 45px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (width: 540px) and (height: 720px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 35px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        margin-top: 3.5cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 30px;
+        width: 30px;
+    }
+
+    .sections-header
+    {
+        font-size: 30px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (width: 280px) and (height: 653px) 
+{
+
+    .homepage-title
+    {
+        margin: 0 auto;
+        font-family: witcher;
+        font-size: 19px;
+        color: rgb(189, 0, 0);
+        font-stretch: extra-expanded;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        bottom: 0;
+        background: rgba(231, 228, 228, 0.342);
+        background-size: auto;
+        color: rgba(197, 0, 0, 0.671);
+        border-radius: 5px;
+        border-style:hidden;
+        height: 15px;
+        width: 15px;
+    }
+
+
+    /*.container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        margin-top: 3.5cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    .sections-header
+    {
+        font-size: 30px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 20px;
+    }
+    
 }
