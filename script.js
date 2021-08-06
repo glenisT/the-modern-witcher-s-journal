@@ -1,5 +1,3 @@
-
-
 function bestiaryClicked()
 {
     //var audio = document.getElementById('source');
