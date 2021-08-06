@@ -13,6 +13,11 @@
     src: url(fonts/WitcherVideogame/Thewitcher-jnOj.ttf);
 }
 
+@font-face {
+    font-family: journal;
+    src: url(fonts/Journal/Handwritten_Crystal_v2.ttf);
+}
+
 html, body
 {
     height: 100%;
@@ -26,7 +31,7 @@ html, body
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -55,18 +60,189 @@ html, body
 .grid-col
 {
     display:grid;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(6, 230px);
+    margin-top: -30px;
+    margin-left: 15px;
 }
 
-div .cell
+.cell
 {
-    background-image: url(/images/icons/witcher-bestiary-beasts.webp/);
-    background-repeat: no-repeat;
+    background-image: url(images/icons/notebook-clipart-old-writing-paper-5.png);
     background-size: cover;
-    background: rgba(0, 0, 0, 0.555);
-    border: 1px solid rgb(187, 0, 0);
-    border-radius: 1cm;
     padding: 10px;
-    margin: 30px;
+    margin-top: 50px;
     height: 200px;
+    width: 150px;
+    border-radius: 1cm;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+}
+
+.cell .cell-title
+{
+    margin-top: -20px;
+    padding-bottom: -20px;
+}
+
+.beasts-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_bear.png);
+    background-size: cover;
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.cursed-ones-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_werewolf.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.draconoids-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/290px-Tw3_journal_wyvern.png);
+    background-size: cover;
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.elementa-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_fireelemental.png);
+    background-size: cover;
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+}
+
+.hybrids-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_griffin.webp);
+    background-size: cover;
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+.insectoids-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_arachnomorph.png);
+    background-size: cover;
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.necrophages-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/grave\ hag.png);
+    background-size: cover;
+    width: 150px;
+    height: 145px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.ogroids-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_rocktroll.png);
+    background-size: cover;
+    width: 150px;
+    height: 145px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.relicts-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/MHW_Ancient_Leshen_Render.png);
+    background-size: cover;
+    width: 150px;
+    height: 145px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.specters-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Tw3_journal_plaguemaiden.png);
+    background-size: cover;
+    width: 150px;
+    height: 145px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.vampires-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/290px-Tw3_journal_alp.png);
+    background-size: cover;
+    width: 150px;
+    height: 165px;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.descriptions-vampires
+{
+    margin-top: -10px;
+}
+
+.legendary-category-icon
+{
+    height: 100%;
+    background-image: url(images/icons/Bestiary_Dagon.png);
+    background-size: cover;
+    width: 150px;
+    height: 190px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: -15px;
+}
+
+.descriptions-legends
+{
+    margin-top: -30px;
+}
+
+.cell:hover
+{
+    height: 220px;
+    width: 170px;
+    cursor: pointer;
 }
