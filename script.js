@@ -3,7 +3,7 @@ function bestiaryClicked()
     //var audio = document.getElementById('source');
     console.log("CLICKED BESTIARY!");
     //audio.play();
-    window.open("file:///C:/Users/user/AngularProjects/The%20ModernWitcher's%20Journal/bestiary-page.html");
+    window.open("C:/Users/user/AngularProjects/TheModernWitcher'sJournal/bestiary-page.html");
 }
 
 function signsClicked()
@@ -20,3 +20,5 @@ function mapClicked()
 {
     console.log("CLICKED MAP!");
 }
+
+//# sourceMappingURL=/path/to/script.js.map
