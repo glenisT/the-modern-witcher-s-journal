@@ -3,7 +3,7 @@ function bestiaryClicked()
     //var audio = document.getElementById('source');
     console.log("CLICKED BESTIARY!");
     //audio.play();
-    window.open("C:/Users/user/AngularProjects/TheModernWitcher'sJournal/bestiary-page.html");
+    window.open("bestiary-page.html");
 }
 
 function signsClicked()
