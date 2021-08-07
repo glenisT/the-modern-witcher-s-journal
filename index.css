@@ -472,6 +472,24 @@ html, body
     }
 }
 
+@media screen and (max-height: 538px) {
+
+    .container .transparent-center-div
+    {
+        margin-top: 2cm;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .container .transparent-center-div
+    {
+        margin-top: 2.5cm;
+    }
+    
+}
+
 @media screen and (max-width: 442px) 
 {
     .homepage-title
@@ -503,7 +521,7 @@ html, body
         border-radius: 1cm;
         margin-left: 3cm;
         margin-right: 3cm;
-        margin-top: 4cm;
+        margin-top: 3cm;
         padding-top: 0.3cm;
         padding-bottom: 0.5cm;
         display: flex;
