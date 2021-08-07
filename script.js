@@ -3,7 +3,7 @@ function bestiaryClicked()
     //var audio = document.getElementById('source');
     console.log("CLICKED BESTIARY!");
     //audio.play();
-    window.open("bestiary-page.html");
+    window.open("bestiary-page.html", "_self");
 }
 
 function signsClicked()

@@ -33,7 +33,7 @@ html, body
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
