@@ -648,7 +648,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 5cm;
+        margin-top: 45%;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -689,7 +689,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 5.8cm;
+        margin-top: 54%;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -730,7 +730,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 3.5cm;
+        margin-top: 40%;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -779,7 +779,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 4cm;
+        margin-top: 40%;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -799,7 +799,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 4.5cm;
+        margin-top: 42%;
         padding-top: 1cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -829,7 +829,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 5.5cm;
+        margin-top: 56%;
         padding-top: 1cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -859,7 +859,7 @@ html, body
         border-radius: 1cm;
         margin-left: 4cm;
         margin-right: 4cm;
-        margin-top: 7cm;
+        margin-top: 32%;
         padding-top: 1.5cm;
         padding-bottom: 1.5cm;
         display: flex;
@@ -899,7 +899,7 @@ html, body
         border-radius: 1cm;
         margin-left: 4cm;
         margin-right: 4cm;
-        margin-top: 9.5cm;
+        margin-top: 35%;
         padding-top: 2cm;
         padding-bottom: 2cm;
         display: flex;
@@ -951,7 +951,7 @@ html, body
         border-radius: 1cm;
         margin-left: 4cm;
         margin-right: 4cm;
-        margin-top: 3.5cm;
+        margin-top: 30%;
         padding-top: 1cm;
         padding-bottom: 1cm;
         display: flex;
@@ -1009,7 +1009,7 @@ html, body
 
     .container .transparent-center-div
     {
-        margin-top: 4cm;
+        margin-top: 50%;
     }
 
     .sections-header
@@ -1051,7 +1051,7 @@ html, body
 
     .container .transparent-center-div
     {
-        margin-top: 4cm;
+        margin-top: 40%;
     }
 
     .sections-header
@@ -1070,7 +1070,7 @@ html, body
 {
     .container .transparent-center-div
     {
-        margin-top: 3cm;
+        margin-top: 25%;
     }
 }
 
@@ -1078,7 +1078,7 @@ html, body
 {
     .container .transparent-center-div
     {
-        margin-top: 2cm;
+        margin-top: 10%;
     }
 }
 
@@ -1092,7 +1092,7 @@ html, body
         border-radius: 1cm;
         margin-left: 1cm;
         margin-right: 1cm;
-        margin-top: 3cm;
+        margin-top: 30%;
         padding-top: 0.5cm;
         padding-bottom: 0.5cm;
         display: flex;
@@ -1105,7 +1105,7 @@ html, body
 {
     .container .transparent-center-div
     {
-        margin-top: 2.5cm;
+        margin-top: 27%;
     }
 }
 
@@ -1119,19 +1119,19 @@ html, body
         border-radius: 1cm;
         margin-left: 3cm;
         margin-right: 3cm;
-        margin-top: 17cm;
+        margin-top: 60%;
         padding-top: 4cm;
         padding-bottom: 4cm;
     }
 
     .sections-header
     {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .sections-list-buttons
     {
-        font-size: 55px;
+        font-size: 65px;
     }
 
     .homepage-title
