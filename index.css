@@ -1122,6 +1122,7 @@ html, body
         margin-top: 60%;
         padding-top: 4cm;
         padding-bottom: 4cm;
+        position: relative;
     }
 
     .sections-header
