@@ -1147,3 +1147,81 @@ html, body
         width: 50px;
     }
 }
+
+@media screen and (width: 2316px) and (height: 1080px)
+{
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 3cm;
+        margin-right: 3cm;
+        margin-top: 4%;
+        padding-top: 4cm;
+        padding-bottom: 4cm;
+        position: relative;
+    }
+
+    .sections-header
+    {
+        font-size: 50px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 35px;
+    }
+
+    .homepage-title
+    {
+        margin-top: 1cm;
+        font-size: 75px;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (width: 1080px) and (height: 2316px)
+{
+    .container .transparent-center-div
+    {
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.342);
+        color: rgb(228, 195, 5);
+        border-radius: 1cm;
+        margin-left: 3cm;
+        margin-right: 3cm;
+        margin-top: 60%;
+        padding-top: 4cm;
+        padding-bottom: 4cm;
+        position: relative;
+    }
+
+    .sections-header
+    {
+        font-size: 70px;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 55px;
+    }
+
+    .homepage-title
+    {
+        margin-top: 1cm;
+        font-size: 75px;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        height: 50px;
+        width: 50px;
+    }
+}
