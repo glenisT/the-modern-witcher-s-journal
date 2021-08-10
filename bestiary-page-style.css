@@ -18,6 +18,17 @@
     src: url(fonts/Journal/Handwritten_Crystal_v2.ttf);
 }
 
+@keyframes elementsFadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes cellPop
+{
+    from{margin-top: 50px;}
+    to{margin-top: 40px;}
+}
+
 html, body
 {
     height: 100%;
@@ -35,6 +46,7 @@ html, body
     margin: 0 auto;
     position: relative;
     text-align: center;
+    animation: elementsFadeIn 1s;
 }
 
 .homepage-title
@@ -43,7 +55,7 @@ html, body
     font-family: witcher;
     font-size: 45px;
     color: rgb(189, 0, 0);
-    font-stretch: extra-expanded;
+    animation: elementsFadeIn 2s;
 }
 
 .homepage-title .witcher-transparent-logo
@@ -55,6 +67,7 @@ html, body
     border-style:hidden;
     height: 30px;
     width: 30px;
+    animation: elementsFadeIn 3s;
 }
 
 .grid-col
@@ -77,6 +90,7 @@ html, body
     font-family: journal;
     font-size: 17px;
     color: brown;
+    animation: elementsFadeIn 4s;
 }
 
 .cell .cell-title
@@ -242,7 +256,6 @@ html, body
 
 .cell:hover
 {
-    height: 220px;
-    width: 170px;
     cursor: pointer;
+    margin-top: 40px;
 }
