@@ -9,6 +9,7 @@ function bestiaryClicked()
 function signsClicked()
 {
     console.log("CLICKED THE SIGNS!");
+    window.open("the-signs-page/the-signs-page.html", "_parent")
 }
 
 function alchemyClicked()

@@ -1,0 +1,280 @@
+@font-face {
+    src: url(../fonts/FantaisieArtistique/FantaisieArtistique.ttf);
+    font-family: witcher;
+}
+
+@font-face {
+    font-family: wonderland;
+    src: url(../fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
+}
+
+@font-face {
+    font-family: witcher-videogame;
+    src: url(../fonts/WitcherVideogame/Thewitcher-jnOj.ttf);
+}
+
+@font-face {
+    font-family: journal;
+    src: url(../fonts/Journal/Handwritten_Crystal_v2.ttf);
+}
+
+@keyframes elementsFadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes sign-shine-aard {
+    from{box-shadow: 0px 0px 0px 0px #0077ff00;}
+    to{box-shadow: 0px 0px 200px 100px #0077ff;}
+}
+
+@keyframes sign-shine-quen {
+    from{box-shadow: 0px 0px 0px 0px #0077ff00;}
+    to{box-shadow: 0px 0px 150px 100px #ffc400;}
+}
+
+@keyframes sign-shine-igni {
+    from{box-shadow: 0px 0px 0px 0px #0077ff00;}
+    to{box-shadow: 0px 0px 200px 100px #cc1800;}
+}
+
+@keyframes sign-shine-yrden {
+    from{box-shadow: 0px 0px 0px 0px #0077ff00;}
+    to{box-shadow: 0px 0px 200px 100px #6400a7;}
+}
+
+@keyframes sign-shine-axii {
+    from{box-shadow: 0px 0px 0px 0px #0077ff00;}
+    to{box-shadow: 0px 0px 200px 100px #00a708;}
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-image: url(../images/witcher-bestiary-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.the-signs-title
+{
+    margin: 0 auto;
+    font-family: witcher;
+    font-size: 45px;
+    color: rgb(189, 0, 0);
+    animation: elementsFadeIn 2s;
+}
+
+.the-signs-title .witcher-transparent-logo
+{
+    bottom: 0;
+    color: rgba(197, 0, 0, 0.671);
+    border-radius: 5px;
+    border-style:hidden;
+    height: 30px;
+    width: 30px;
+    animation: elementsFadeIn 3s;
+}
+
+.grid-col
+{
+    display:grid;
+    grid-template-columns: repeat(5, 230px);
+    margin-top: -30px;
+    margin-left: 4%;
+}
+
+.cell-aard
+{
+    background-color: rgba(114, 114, 114, 0);
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 500px 100px #0077ff;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+    animation: elementsFadeIn 4s;
+    animation: sign-shine-aard 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cell-quen
+{
+    background-color: rgba(114, 114, 114, 0);
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 500px 100px #fffb00;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+    animation: elementsFadeIn 4s;
+    animation: sign-shine-quen 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cell-igni
+{
+    background-color: rgba(114, 114, 114, 0);
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 500px 100px #fffb00;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+    animation: elementsFadeIn 4s;
+    animation: sign-shine-igni 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cell-yrden
+{
+    background-color: rgba(114, 114, 114, 0);
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 500px 100px #fffb00;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+    animation: elementsFadeIn 4s;
+    animation: sign-shine-yrden 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cell-axii
+{
+    background-color: rgba(114, 114, 114, 0);
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 500px 100px #fffb00;
+    font-family: journal;
+    font-size: 17px;
+    color: brown;
+    animation: elementsFadeIn 4s;
+    animation: sign-shine-axii 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.aard
+{
+    height: 100%;
+    background-image: url(../images/icons/aard.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: -25%;
+    border-radius: 50%;
+}
+
+.quen
+{
+    height: 100%;
+    background-image: url(../images/icons/quen.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: -25%;
+    border-radius: 50%;
+}
+
+.igni
+{
+    height: 100%;
+    background-image: url(../images/icons/igni.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: -25%;
+    border-radius: 50%;
+}
+
+.yrden
+{
+    height: 100%;
+    background-image: url(../images/icons/yrden.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: -25%;
+    border-radius: 50%;
+}
+
+.axii
+{
+    height: 100%;
+    background-image: url(../images/icons/axii.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: -25%;
+    border-radius: 50%;
+}
+
+.cell:hover
+{
+    cursor: pointer;
+}
