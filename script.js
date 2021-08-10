@@ -14,6 +14,7 @@ function signsClicked()
 function alchemyClicked()
 {
     console.log("CLICKED ALCHEMY!");
+    window.open("alchemy-page/alchemy-page.html", "_parent");
 }
 
 function mapClicked()
