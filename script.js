@@ -1,8 +1,8 @@
 function bestiaryClicked()
 {
-    //var audio = document.getElementById('source');
+    var audio = document.getElementById('source');
     console.log("CLICKED BESTIARY!");
-    //audio.play();
+    audio.play();
     window.open("bestiary-page.html", "_parent");
 }
 

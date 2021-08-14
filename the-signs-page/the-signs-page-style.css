@@ -1,3 +1,4 @@
+/*Fonts and animations*/
 @font-face {
     src: url(../fonts/FantaisieArtistique/FantaisieArtistique.ttf);
     font-family: witcher;
@@ -48,6 +49,17 @@
     to{box-shadow: 0px 0px 200px 100px #00a708;}
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+/*Key elements*/
+
 html, body
 {
     height: 100%;
@@ -95,6 +107,8 @@ html, body
     margin-left: 4%;
 }
 
+/*The cells that will be overlapped by the png, will play the custom animations as to not create a background color for the png when playing*/
+/*You have to play the rotate animation here on click if you want*/
 .cell-aard
 {
     background-color: rgba(114, 114, 114, 0);
@@ -199,6 +213,8 @@ html, body
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+/*The signs png icons*/
 .aard
 {
     height: 100%;
@@ -274,7 +290,52 @@ html, body
     border-radius: 50%;
 }
 
-.cell:hover
+.aard:hover
 {
     cursor: pointer;
+}
+
+.quen:hover
+{
+    cursor: pointer;
+}
+
+.igni:hover
+{
+    cursor: pointer;
+}
+
+.yrden:hover
+{
+    cursor: pointer;
+}
+
+.axii:hover
+{
+    cursor: pointer;
+}
+/*Rotate the sign on hold*/
+.aard:active
+{
+    animation: rotation 1s;
+}
+
+.quen:active
+{
+    animation: rotation 1s;
+}
+
+.igni:active
+{
+    animation: rotation 1s;
+}
+
+.yrden:active
+{
+    animation: rotation 1s;
+}
+
+.axii:active
+{
+    animation: rotation 1s;
 }
