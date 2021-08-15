@@ -52,9 +52,12 @@
 @keyframes rotation {
     from {
       transform: rotate(0deg);
+      margin-top: -30%;
+      
     }
     to {
       transform: rotate(360deg);
+      margin-top: 100%;
     }
   }
 
@@ -289,7 +292,7 @@ html, body
     margin-left: -25%;
     border-radius: 50%;
 }
-
+ /*Hover on icons*/
 .aard:hover
 {
     cursor: pointer;
@@ -339,3 +342,5 @@ html, body
 {
     animation: rotation 1s;
 }
+
+/*Rotate sign, send to corner of the page with animation, fade in the text description*/
