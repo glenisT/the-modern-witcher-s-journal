@@ -24,6 +24,11 @@
     to{opacity: 1;}
 }
 
+@keyframes elementsFadeOut {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
 @keyframes sign-shine-aard {
     from{box-shadow: 0px 0px 0px 0px #0077ff00;}
     to{box-shadow: 0px 0px 200px 100px #0077ff;}
@@ -59,7 +64,19 @@
       transform: rotate(360deg);
       margin-top: 100%;
     }
-  }
+}
+
+@keyframes anti-rotation {
+    from {
+      transform: rotate(360deg);
+      margin-top: 100%;
+      
+    }
+    to {
+      transform: rotate(0deg);
+      margin-top: -30%;
+    }
+}
 
 /*Key elements*/
 
@@ -318,7 +335,7 @@ html, body
     cursor: pointer;
 }
 /*Rotate the sign on hold*/
-.aard:active
+/*.aard:active
 {
     animation: rotation 1s;
 }
@@ -342,5 +359,5 @@ html, body
 {
     animation: rotation 1s;
 }
-
+*/
 /*Rotate sign, send to corner of the page with animation, fade in the text description*/
