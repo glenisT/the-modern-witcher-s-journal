@@ -1,3 +1,15 @@
+/*Functions to play sound*/
+const sound = new Audio();
+
+function playSound() { 
+  sound.src = '../audio/clicks/stone-grind-for-signs.wav' 
+  sound.play() 
+}
+
+function playSoundReverse() { 
+  sound.src = '../audio/clicks/stone-grind-for-signs-reverse.wav' 
+  sound.play() 
+}
 //Get div behind to animate image and add description
 var aardCell = document.getElementById("cell-aard")
 var aardDescription = document.getElementById("aard-description");
@@ -24,6 +36,7 @@ aardCell.addEventListener("mouseover", function(){
   aardDescription.innerHTML = "Aard <br/>Psychokinetic thrust. Pushes objects away.";
   aardDescription.style.color = "rgb(0, 0, 196)";
   aardDescription.style.animation = "elementsFadeIn 1s";
+  playSound();
 
   aardCell.style.animationPlayState = "paused";
   aard.style.marginTop = "100%"
@@ -38,6 +51,7 @@ aardCell.addEventListener("mouseout", function(){
   aard.style.animation = "anti-rotation 1s";
   aardDescription.innerHTML = "";
   aardDescription.style.animation = "elementsFadeOut 3s";
+  playSoundReverse();
 
   aardCell.style.animation = "";
   aard.style.marginTop = "-30%"
@@ -54,6 +68,7 @@ quenCell.addEventListener("mouseover", function(){
   quenDescription.innerHTML = "Quen<br/>Forms protective energy field.";
   quenDescription.style.color = "rgb(255, 208, 0)";
   quenDescription.style.animation = "elementsFadeIn 1s";
+  playSound();
 
   quenCell.style.animationPlayState = "paused";
   quen.style.marginTop = "100%"
@@ -68,6 +83,7 @@ quenCell.addEventListener("mouseout", function(){
   quen.style.animation = "anti-rotation 1s";
   quenDescription.innerHTML = "";
   quenDescription.style.animation = "elementsFadeOut 3s";
+  playSoundReverse();
 
   quenCell.style.animation = "";
   quen.style.marginTop = "-30%"
@@ -83,6 +99,7 @@ igniCell.addEventListener("mouseover", function(){
   igni.style.animation = "rotation 1s";
   igniDescription.innerHTML = "Igni<br/>Pyrokinetic burst. Ignites objects";
   igniDescription.style.animation = "elementsFadeIn 1s";
+  playSound();
 
   igniCell.style.animationPlayState = "paused";
   igni.style.marginTop = "100%"
@@ -97,6 +114,7 @@ igniCell.addEventListener("mouseout", function(){
   igni.style.animation = "anti-rotation 1s";
   igniDescription.innerHTML = "";
   igniDescription.style.animation = "elementsFadeOut 3s";
+  playSoundReverse();
 
   igniCell.style.animation = "";
   igni.style.marginTop = "-30%"
@@ -113,6 +131,7 @@ yrdenCell.addEventListener("mouseover", function(){
   yrdenDescription.innerHTML = "Yrden<br/>Creates barrier against and opponents";
   yrdenDescription.style.animation = "elementsFadeIn 1s";
   yrdenDescription.style.color = "rgb(105, 0, 167)";
+  playSound();
 
   yrdenCell.style.animationPlayState = "paused";
   yrden.style.marginTop = "100%"
@@ -127,6 +146,7 @@ yrdenCell.addEventListener("mouseout", function(){
   yrden.style.animation = "anti-rotation 1s";
   yrdenDescription.innerHTML = "";
   yrdenDescription.style.animation = "elementsFadeOut 3s";
+  playSoundReverse();
 
   yrdenCell.style.animation = "";
   yrden.style.marginTop = "-30%"
@@ -143,6 +163,7 @@ axiiCell.addEventListener("mouseover", function(){
   axiiDescription.innerHTML = "Axii<br/>Hypnotic sign for mind manipulation.";
   axiiDescription.style.animation = "elementsFadeIn 1s";
   axiiDescription.style.color = "green";
+  playSound();
 
   axiiCell.style.animationPlayState = "paused";
   axii.style.marginTop = "100%"
@@ -157,6 +178,7 @@ axiiCell.addEventListener("mouseout", function(){
   axii.style.animation = "anti-rotation 1s";
   axiiDescription.innerHTML = "";
   axiiDescription.style.animation = "elementsFadeOut 3s";
+  playSoundReverse();
 
   axiiCell.style.animation = "";
   axii.style.marginTop = "-30%"

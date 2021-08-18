@@ -129,6 +129,15 @@ html, body
     margin-left: 4%;
 }
 
+.foot-note
+{
+    margin-top: 10%;
+    font-family: witcher;
+    font-size: 20px;
+    color: rgb(189, 0, 0);
+    animation: elementsFadeIn 2s;
+}
+
 /*The cells that will be overlapped by the png, will play the custom animations as to not create a background color for the png when playing*/
 /*You have to play the rotate animation here on click if you want*/
 .cell-aard
@@ -336,30 +345,3 @@ html, body
 {
     cursor: pointer;
 }
-/*Rotate the sign on hold*/
-/*.aard:active
-{
-    animation: rotation 1s;
-}
-
-.quen:active
-{
-    animation: rotation 1s;
-}
-
-.igni:active
-{
-    animation: rotation 1s;
-}
-
-.yrden:active
-{
-    animation: rotation 1s;
-}
-
-.axii:active
-{
-    animation: rotation 1s;
-}
-*/
-/*Rotate sign, send to corner of the page with animation, fade in the text description*/
