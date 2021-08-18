@@ -21,7 +21,8 @@ var axiiDescription = document.getElementById("axii-description");
 //Event listeners for AARD
 aardCell.addEventListener("mouseover", function(){
   aard.style.animation = "rotation 1s";
-  aardDescription.innerHTML = "Aard <br/> Push shit";
+  aardDescription.innerHTML = "Aard <br/>Psychokinetic thrust. Pushes objects away.";
+  aardDescription.style.color = "rgb(0, 0, 196)";
   aardDescription.style.animation = "elementsFadeIn 1s";
 
   aardCell.style.animationPlayState = "paused";
@@ -50,7 +51,8 @@ aardCell.addEventListener("mouseout", function(){
 //Event listeners for QUEN
 quenCell.addEventListener("mouseover", function(){
   quen.style.animation = "rotation 1s";
-  quenDescription.innerHTML = "Aard <br/> Push shit";
+  quenDescription.innerHTML = "Quen<br/>Forms protective energy field.";
+  quenDescription.style.color = "rgb(255, 208, 0)";
   quenDescription.style.animation = "elementsFadeIn 1s";
 
   quenCell.style.animationPlayState = "paused";
@@ -79,7 +81,7 @@ quenCell.addEventListener("mouseout", function(){
 //Event listeners for igni
 igniCell.addEventListener("mouseover", function(){
   igni.style.animation = "rotation 1s";
-  igniDescription.innerHTML = "Aard <br/> Push shit";
+  igniDescription.innerHTML = "Igni<br/>Pyrokinetic burst. Ignites objects";
   igniDescription.style.animation = "elementsFadeIn 1s";
 
   igniCell.style.animationPlayState = "paused";
@@ -108,8 +110,9 @@ igniCell.addEventListener("mouseout", function(){
 //Event listeners for yrden
 yrdenCell.addEventListener("mouseover", function(){
   yrden.style.animation = "rotation 1s";
-  yrdenDescription.innerHTML = "Aard <br/> Push shit";
+  yrdenDescription.innerHTML = "Yrden<br/>Creates barrier against and opponents";
   yrdenDescription.style.animation = "elementsFadeIn 1s";
+  yrdenDescription.style.color = "rgb(105, 0, 167)";
 
   yrdenCell.style.animationPlayState = "paused";
   yrden.style.marginTop = "100%"
@@ -137,8 +140,9 @@ yrdenCell.addEventListener("mouseout", function(){
 //Event listeners for axii
 axiiCell.addEventListener("mouseover", function(){
   axii.style.animation = "rotation 1s";
-  axiiDescription.innerHTML = "Aard <br/> Push shit";
+  axiiDescription.innerHTML = "Axii<br/>Hypnotic sign for mind manipulation.";
   axiiDescription.style.animation = "elementsFadeIn 1s";
+  axiiDescription.style.color = "green";
 
   axiiCell.style.animationPlayState = "paused";
   axii.style.marginTop = "100%"
