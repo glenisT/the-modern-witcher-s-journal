@@ -23,82 +23,142 @@ aardCell.addEventListener("mouseover", function(){
   aard.style.animation = "rotation 1s";
   aardDescription.innerHTML = "Aard <br/> Push shit";
   aardDescription.style.animation = "elementsFadeIn 1s";
+
   aardCell.style.animationPlayState = "paused";
   aard.style.marginTop = "100%"
+
+  quenCell.style.animationPlayState = "paused";
+  igniCell.style.animationPlayState = "paused";
+  yrdenCell.style.animationPlayState = "paused";
+  axiiCell.style.animationPlayState = "paused";
 });
 
 aardCell.addEventListener("mouseout", function(){
   aard.style.animation = "anti-rotation 1s";
-  aardDescription.style.animation = "elementsFadeOut 1s";
-  aardCell.style.animationPlayState = "running";
-  aard.style.marginTop = "-30%"
   aardDescription.innerHTML = "";
+  aardDescription.style.animation = "elementsFadeOut 3s";
+
+  aardCell.style.animation = "";
+  aard.style.marginTop = "-30%"
+  
+  quenCell.style.animationPlayState = "running";
+  igniCell.style.animationPlayState = "running";
+  yrdenCell.style.animationPlayState = "running";
+  axiiCell.style.animationPlayState = "running";
 });
 
 //Event listeners for QUEN
 quenCell.addEventListener("mouseover", function(){
   quen.style.animation = "rotation 1s";
-  quenDescription.innerHTML = "Quen <br/> Push shit";
+  quenDescription.innerHTML = "Aard <br/> Push shit";
   quenDescription.style.animation = "elementsFadeIn 1s";
+
   quenCell.style.animationPlayState = "paused";
   quen.style.marginTop = "100%"
+
+  aardCell.style.animationPlayState = "paused";
+  igniCell.style.animationPlayState = "paused";
+  yrdenCell.style.animationPlayState = "paused";
+  axiiCell.style.animationPlayState = "paused";
 });
 
 quenCell.addEventListener("mouseout", function(){
   quen.style.animation = "anti-rotation 1s";
-  quenDescription.style.animation = "elementsFadeOut 1s";
-  quenCell.style.animationPlayState = "running";
-  quen.style.marginTop = "-30%"
   quenDescription.innerHTML = "";
+  quenDescription.style.animation = "elementsFadeOut 3s";
+
+  quenCell.style.animation = "";
+  quen.style.marginTop = "-30%"
+
+  aardCell.style.animationPlayState = "running";
+  igniCell.style.animationPlayState = "running";
+  yrdenCell.style.animationPlayState = "running";
+  axiiCell.style.animationPlayState = "running";
 });
 
 //Event listeners for igni
 igniCell.addEventListener("mouseover", function(){
   igni.style.animation = "rotation 1s";
-  igniDescription.innerHTML = "Igni <br/> Push shit";
+  igniDescription.innerHTML = "Aard <br/> Push shit";
   igniDescription.style.animation = "elementsFadeIn 1s";
+
   igniCell.style.animationPlayState = "paused";
   igni.style.marginTop = "100%"
+
+  aardCell.style.animationPlayState = "paused";
+  quenCell.style.animationPlayState = "paused";
+  yrdenCell.style.animationPlayState = "paused";
+  axiiCell.style.animationPlayState = "paused";
 });
 
 igniCell.addEventListener("mouseout", function(){
   igni.style.animation = "anti-rotation 1s";
-  igniDescription.style.animation = "elementsFadeOut 1s";
-  igniCell.style.animationPlayState = "running";
-  igni.style.marginTop = "-30%"
   igniDescription.innerHTML = "";
+  igniDescription.style.animation = "elementsFadeOut 3s";
+
+  igniCell.style.animation = "";
+  igni.style.marginTop = "-30%"
+
+  aardCell.style.animationPlayState = "running";
+  quenCell.style.animationPlayState = "running";
+  yrdenCell.style.animationPlayState = "running";
+  axiiCell.style.animationPlayState = "running";
 });
 
 //Event listeners for yrden
 yrdenCell.addEventListener("mouseover", function(){
   yrden.style.animation = "rotation 1s";
-  yrdenDescription.innerHTML = "Yrden <br/> Push shit";
+  yrdenDescription.innerHTML = "Aard <br/> Push shit";
   yrdenDescription.style.animation = "elementsFadeIn 1s";
+
   yrdenCell.style.animationPlayState = "paused";
   yrden.style.marginTop = "100%"
+
+  aardCell.style.animationPlayState = "paused";
+  quenCell.style.animationPlayState = "paused";
+  igniCell.style.animationPlayState = "paused";
+  axiiCell.style.animationPlayState = "paused";
 });
 
 yrdenCell.addEventListener("mouseout", function(){
   yrden.style.animation = "anti-rotation 1s";
-  yrdenDescription.style.animation = "elementsFadeOut 1s";
-  yrdenCell.style.animationPlayState = "running";
-  yrden.style.marginTop = "-30%"
   yrdenDescription.innerHTML = "";
+  yrdenDescription.style.animation = "elementsFadeOut 3s";
+
+  yrdenCell.style.animation = "";
+  yrden.style.marginTop = "-30%"
+
+  aardCell.style.animationPlayState = "running";
+  quenCell.style.animationPlayState = "running";
+  igniCell.style.animationPlayState = "running";
+  axiiCell.style.animationPlayState = "running";
 });
 
 //Event listeners for axii
 axiiCell.addEventListener("mouseover", function(){
   axii.style.animation = "rotation 1s";
-  axiiDescription.innerHTML = "Axii <br/> Push shit";
+  axiiDescription.innerHTML = "Aard <br/> Push shit";
   axiiDescription.style.animation = "elementsFadeIn 1s";
+
   axiiCell.style.animationPlayState = "paused";
   axii.style.marginTop = "100%"
+
+  aardCell.style.animationPlayState = "paused";
+  quenCell.style.animationPlayState = "paused";
+  igniCell.style.animationPlayState = "paused";
+  yrdenCell.style.animationPlayState = "paused";
 });
 
 axiiCell.addEventListener("mouseout", function(){
   axii.style.animation = "anti-rotation 1s";
-  axiiDescription.style.animation = "elementsFadeOut 1s";
-  axiiCell.style.animationPlayState = "running";
-  axii.style.marginTop = "-30%"
   axiiDescription.innerHTML = "";
+  axiiDescription.style.animation = "elementsFadeOut 3s";
+
+  axiiCell.style.animation = "";
+  axii.style.marginTop = "-30%"
+
+  aardCell.style.animationPlayState = "running";
+  quenCell.style.animationPlayState = "running";
+  igniCell.style.animationPlayState = "running";
+  yrdenCell.style.animationPlayState = "running";
 });
