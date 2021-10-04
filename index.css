@@ -510,3 +510,38 @@ html, body
     
 }
 
+@media screen and (max-height: 670px) {
+
+    .container .transparent-center-div
+    {
+        margin-top: 20vh;
+        margin-right: 5vh;
+        margin-left: 5vh;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+
+    .homepage-title
+    {
+        font-size: 20px;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        height: 15px;
+        width: 15px;
+    }
+
+    .sections-header
+    {
+        font-size: large;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 15px;
+    }
+    
+}
