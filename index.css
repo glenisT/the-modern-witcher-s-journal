@@ -308,6 +308,42 @@ html, body
     
 }
 
+@media screen and (max-height: 819px) {
+
+    .container .transparent-center-div
+    {
+        margin-top: 20vh !important;
+        margin-right: 30vh;
+        margin-left: 30vh;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+
+    .homepage-title
+    {
+        font-size: 50px;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        height: 30px;
+        width: 30px;
+    }
+
+    .sections-header
+    {
+        font-size: large;
+    }
+
+    .sections-list-buttons
+    {
+        font-size: 15px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
 
     .container .transparent-center-div
@@ -510,38 +546,3 @@ html, body
     
 }
 
-@media screen and (max-height: 799px) {
-
-    .container .transparent-center-div
-    {
-        margin-top: 20vh;
-        margin-right: 5vh;
-        margin-left: 5vh;
-        padding-top: 7vh;
-        padding-bottom: 7vh;
-        padding-right: 5vh;
-        padding-left: 5vh;
-    }
-
-    .homepage-title
-    {
-        font-size: 20px;
-    }
-
-    .homepage-title .witcher-transparent-logo
-    {
-        height: 15px;
-        width: 15px;
-    }
-
-    .sections-header
-    {
-        font-size: large;
-    }
-
-    .sections-list-buttons
-    {
-        font-size: 15px;
-    }
-    
-}
