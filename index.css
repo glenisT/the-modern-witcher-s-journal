@@ -510,7 +510,7 @@ html, body
     
 }
 
-@media screen and (max-height: 720px) {
+@media screen and (max-height: 850px) {
 
     .container .transparent-center-div
     {
