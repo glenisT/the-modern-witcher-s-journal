@@ -398,7 +398,7 @@ html, body
 
     .container
     {
-        height:max-content
+        height:auto
     }
     
 }
