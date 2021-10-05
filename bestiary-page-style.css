@@ -73,8 +73,8 @@ html, body
 {
     display:grid;
     grid-template-columns: repeat(6, 230px);
-    margin-top: -30px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .cell
