@@ -21,6 +21,7 @@ function alchemyClicked()
 function mapClicked()
 {
     console.log("CLICKED MAP!");
+    window.open("map-page/map-page.html", "_parent");
 }
 
 //# sourceMappingURL=/path/to/script.js.map
