@@ -394,11 +394,11 @@ html, body
     
 }
 
-@media (max-height: 800px) {
+@media screen and (max-height: 800px) {
 
     .container
     {
-        height:min-content;
+        height: 500%
     }
     
 }
