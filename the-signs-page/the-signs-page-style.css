@@ -136,6 +136,7 @@ html, body
     font-size: 20px;
     color: rgb(189, 0, 0);
     animation: elementsFadeIn 2s;
+    padding-bottom: 5.75%;
 }
 
 /*The cells that will be overlapped by the png, will play the custom animations as to not create a background color for the png when playing*/
