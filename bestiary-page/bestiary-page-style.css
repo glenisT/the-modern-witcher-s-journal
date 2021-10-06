@@ -1,11 +1,11 @@
 @font-face {
-    src: url(fonts/FantaisieArtistique/FantaisieArtistique.ttf);
+    src: url(../fonts/FantaisieArtistique/FantaisieArtistique.ttf);
     font-family: witcher;
 }
 
 @font-face {
     font-family: wonderland;
-    src: url(fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
+    src: url(../fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: journal;
-    src: url(fonts/Journal/Handwritten_Crystal_v2.ttf);
+    src: url(../fonts/Journal/Handwritten_Crystal_v2.ttf);
 }
 
 @keyframes elementsFadeIn {
@@ -38,7 +38,7 @@ html, body
 
 .container
 {
-    background-image: url(images/witcher-bestiary-background.jpg);
+    background-image: url(../images/witcher-bestiary-background.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ html, body
 
 .cell
 {
-    background-image: url(images/icons/notebook-clipart-old-writing-paper-5.png);
+    background-image: url(../images/icons/notebook-clipart-old-writing-paper-5.png);
     background-size: cover;
     padding: 10px;
     margin-top: 50px;
@@ -101,7 +101,7 @@ html, body
 .beasts-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_bear.png);
+    background-image: url(../images/icons/Tw3_journal_bear.png);
     background-size: cover;
     width: 150px;
     height: 140px;
@@ -112,7 +112,7 @@ html, body
 .cursed-ones-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_werewolf.png);
+    background-image: url(../images/icons/Tw3_journal_werewolf.png);
     background-size: cover;
     width: 150px;
     height: 150px;
@@ -123,7 +123,7 @@ html, body
 .draconoids-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/290px-Tw3_journal_wyvern.png);
+    background-image: url(../images/icons/290px-Tw3_journal_wyvern.png);
     background-size: cover;
     width: 150px;
     height: 140px;
@@ -134,7 +134,7 @@ html, body
 .elementa-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_fireelemental.png);
+    background-image: url(../images/icons/Tw3_journal_fireelemental.png);
     background-size: cover;
     width: 150px;
     height: 140px;
@@ -145,7 +145,7 @@ html, body
 .hybrids-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_griffin.webp);
+    background-image: url(../images/icons/Tw3_journal_griffin.webp);
     background-size: cover;
     width: 150px;
     height: 140px;
@@ -157,7 +157,7 @@ html, body
 .insectoids-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_arachnomorph.png);
+    background-image: url(../images/icons/Tw3_journal_arachnomorph.png);
     background-size: cover;
     width: 150px;
     height: 140px;
@@ -169,7 +169,7 @@ html, body
 .necrophages-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/grave\ hag.png);
+    background-image: url(../images/icons/grave\ hag.png);
     background-size: cover;
     width: 150px;
     height: 145px;
@@ -182,7 +182,7 @@ html, body
 .ogroids-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_rocktroll.png);
+    background-image: url(../images/icons/Tw3_journal_rocktroll.png);
     background-size: cover;
     width: 150px;
     height: 145px;
@@ -195,7 +195,7 @@ html, body
 .relicts-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/MHW_Ancient_Leshen_Render.png);
+    background-image: url(../images/icons/MHW_Ancient_Leshen_Render.png);
     background-size: cover;
     width: 150px;
     height: 145px;
@@ -208,7 +208,7 @@ html, body
 .specters-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Tw3_journal_plaguemaiden.png);
+    background-image: url(../images/icons/Tw3_journal_plaguemaiden.png);
     background-size: cover;
     width: 150px;
     height: 145px;
@@ -221,7 +221,7 @@ html, body
 .vampires-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/290px-Tw3_journal_alp.png);
+    background-image: url(../images/icons/290px-Tw3_journal_alp.png);
     background-size: cover;
     width: 150px;
     height: 165px;
@@ -239,7 +239,7 @@ html, body
 .legendary-category-icon
 {
     height: 100%;
-    background-image: url(images/icons/Bestiary_Dagon.png);
+    background-image: url(../images/icons/Bestiary_Dagon.png);
     background-size: cover;
     width: 150px;
     height: 190px;
