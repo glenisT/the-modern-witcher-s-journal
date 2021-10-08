@@ -138,9 +138,9 @@ li
     .grid-col
     {
         display:grid;
-        grid-template-columns: repeat(2, 230px);
-        margin-top: -30px;
+        grid-template-columns: repeat(2, 300px);
         justify-content: center;
+        margin-top: 2vh;
     }
     
 }
@@ -150,9 +150,9 @@ li
     .grid-col
     {
         display:grid;
-        grid-template-columns: repeat(3, 230px);
-        margin-top: -30px;
+        grid-template-columns: repeat(2, 300px);
         justify-content: center;
+        margin-top: 2vh;
     }
     
 }
@@ -168,48 +168,21 @@ li
     .grid-col
     {
         display:grid;
-        grid-template-columns: repeat(2, 230px);
-        margin-top: -30px;
-        margin-left: 7%;
+        grid-template-columns: repeat(2, 250px);
         justify-content: center;
+        margin-top: 2vh;
     }
     
 }
 
-@media screen and (max-width: 642px) {
-
-    .grid-col
-    {
-        display:grid;
-        grid-template-columns: repeat(2, 210px);
-        margin-top: -30px;
-        margin-left: 7%;
-        justify-content: center;
-    }
-    
-}
-
-@media screen and (max-width: 422px) {
+@media screen and (max-width: 490px) {
 
     .grid-col
     {
         display:grid;
         grid-template-columns: repeat(2, 180px);
-        margin-top: -30px;
-        margin-left: 7%;
         justify-content: center;
-    }
-    
-}
-
-@media screen and (max-width: 370px) {
-
-    .grid-col
-    {
-        display:grid;
-        grid-template-columns: repeat(2, 150px);
-        margin-top: -30px;
-        justify-content: center;
+        margin-top: 2vh;
     }
     
 }
