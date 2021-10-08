@@ -14,8 +14,6 @@ const rubedo = document.getElementById('rubedo');
 
 function lightUpElements(elementList)
 {
-    console.log('Clicked element!');
-    console.log(elementList);
     for(i = 0; i < elementList.length; i++)
     {
         if(elementList[i] == 'vitriol')
