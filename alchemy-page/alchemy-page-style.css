@@ -1,0 +1,233 @@
+@font-face {
+    src: url(../fonts/FantaisieArtistique/FantaisieArtistique.ttf);
+    font-family: witcher;
+}
+
+@font-face {
+    font-family: wonderland;
+    src: url(../fonts/BeyondWonderland/Beyond\ Wonderland.ttf);
+}
+
+@font-face {
+    font-family: witcher-videogame;
+    src: url(fonts/WitcherVideogame/Thewitcher-jnOj.ttf);
+}
+
+@font-face {
+    font-family: journal;
+    src: url(../fonts/Journal/Handwritten_Crystal_v2.ttf);
+}
+
+@keyframes elementsFadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes cellPop
+{
+    from{margin-top: 50px;}
+    to{margin-top: 40px;}
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-image: url(../images/witcher-bestiary-background.jpg);
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    animation: elementsFadeIn 1s;
+}
+
+.homepage-title
+{
+    margin: 0 auto;
+    font-family: witcher;
+    font-size: 45px;
+    color: rgb(189, 0, 0);
+    animation: elementsFadeIn 2s;
+}
+
+.homepage-title .witcher-transparent-logo
+{
+    bottom: 0;
+    background: rgba(231, 228, 228, 0.342);
+    border-radius: 5px;
+    border-style:hidden;
+    height: 30px;
+    width: 30px;
+    animation: elementsFadeIn 3s;
+}
+
+.grid-col
+{
+    display:grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+h2
+{
+    font-family: journal;
+    color: maroon;
+}
+
+.elements
+{
+    position: sticky;
+}
+
+/*-----------Conventional Breakpoints------------------*/
+
+@media screen and (max-width: 2800px) {
+
+    /* to fix */
+    
+}
+
+@media screen and (max-width: 2600px) {
+
+    /* to fix */
+    
+}
+
+@media screen and (max-width: 1300px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(3, 230px);
+        margin-top: -30px;
+        justify-content: center;
+    }
+
+    .container
+    {
+        height: 140%;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        background: rgba(231, 228, 228, 0.342);
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(3, 230px);
+        margin-top: -30px;
+        justify-content: center;
+    }
+
+    .container
+    {
+        height: 140%;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        background: rgba(231, 228, 228, 0.342);
+    }
+    
+}
+
+@media screen and (max-width: 863px) {
+
+    
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(3, 230px);
+        margin-top: -30px;
+        margin-left: 7%;
+        justify-content: center;
+    }
+
+    .container
+    {
+        height: 140%;
+    }
+
+    .homepage-title .witcher-transparent-logo
+    {
+        background: rgba(231, 228, 228, 0.342);
+    }
+    
+}
+
+@media screen and (max-width: 642px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(2, 210px);
+        margin-top: -30px;
+        margin-left: 7%;
+        justify-content: center;
+    }
+
+    .container
+    {
+        height: 210%;
+    }
+    
+}
+
+@media screen and (max-width: 422px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(2, 180px);
+        margin-top: -30px;
+        margin-left: 7%;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+
+    .grid-col
+    {
+        display:grid;
+        grid-template-columns: repeat(1, 150px);
+        margin-top: -30px;
+        justify-content: center;
+    }
+
+    .container
+    {
+        height: 410%;
+    }
+    
+}
+
+@media screen and (max-height: 800px) {
+
+    .container
+    {
+        height: max-content;
+    }
+    
+}
