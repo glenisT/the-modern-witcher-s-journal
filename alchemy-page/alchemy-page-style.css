@@ -181,6 +181,11 @@ li
     background-size: 120% 120%;
 }
 
+.grid-ingredients li:hover
+{
+    cursor: pointer;
+}
+
 .grid-elements
 {
     display: grid;
