@@ -53,7 +53,7 @@ function lightUpElements(elementList)
 
         if(elementList[i] == 'rubedo')
         {
-            this.quebirth.style.animation = "rubedoShine 0.5s alternate 6";
+            this.rubedo.style.animation = "rubedoShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'aether')
