@@ -29,6 +29,15 @@
     to{margin-top: 40px;}
 }
 
+@keyframes vitriolShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(0, 217, 255, 0.507);
+        border-radius: 10px;
+    }
+}
+
 html, body
 {
     height: 100%;
