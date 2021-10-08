@@ -96,9 +96,6 @@ li
     display: grid;
     grid-template-columns: repeat(1);
     position: sticky;
-    border-width: 5px;
-    border-color: blue;
-    border-style: solid;
     height: max-content;
 }
 
@@ -108,9 +105,6 @@ li
     grid-template-columns: repeat(1);
     top: 0;
     position: sticky;
-    border-width: 5px;
-    border-color: red;
-    border-style: solid;
     height: max-content;
 }
 
