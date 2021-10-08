@@ -18,47 +18,47 @@ function lightUpElements(elementList)
     {
         if(elementList[i] == 'vitriol')
         {
-            this.vitriol.style.animation = "vitriolShine 1s alternate 3";
+            this.vitriol.style.animation = "vitriolShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'rebis')
         {
-            this.rebis.style.animation = "rebisShine 1s alternate 3";
+            this.rebis.style.animation = "rebisShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'hydragenum')
         {
-            this.hydragenum.style.animation = "hydragenumShine 1s alternate 3";
+            this.hydragenum.style.animation = "hydragenumShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'quebirth')
         {
-            this.quebirth.style.animation = "quebirthShine 1s alternate 3";
+            this.quebirth.style.animation = "quebirthShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'vermilion')
         {
-            this.vermilion.style.animation = "vermilionShine 1s alternate 3";
+            this.vermilion.style.animation = "vermilionShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'albedo')
         {
-            this.albedo.style.animation = "albedoShine 1s alternate 3";
+            this.albedo.style.animation = "albedoShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'nigredo')
         {
-            this.nigredo.style.animation = "nigredoShine 1s alternate 3";
+            this.nigredo.style.animation = "nigredoShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'rubedo')
         {
-            this.quebirth.style.animation = "rubedoShine 1s alternate 3";
+            this.quebirth.style.animation = "rubedoShine 0.5s alternate 6";
         }
 
         if(elementList[i] == 'aether')
         {
-            this.aether.style.animation = "aetherShine 1s alternate 3";
+            this.aether.style.animation = "aetherShine 0.5s alternate 6";
         }
     }
 }
