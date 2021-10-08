@@ -23,17 +23,83 @@
     to{opacity: 1;}
 }
 
-@keyframes cellPop
-{
-    from{margin-top: 50px;}
-    to{margin-top: 40px;}
-}
-
 @keyframes vitriolShine {
     from{opacity: 1;}
     to
     {
         background-color: rgba(0, 217, 255, 0.507);
+        border-radius: 10px;
+    }
+}
+
+@keyframes rebisShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(0, 255, 76, 0.507);
+        border-radius: 10px;
+    }
+}
+
+@keyframes aetherShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(195, 0, 255, 0.507);
+        border-radius: 10px;
+    }
+}
+
+@keyframes quebirthShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(251, 255, 0, 0.507);
+        border-radius: 10px;
+    }
+}
+
+@keyframes hydragenumShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgb(226, 226, 226);
+        border-radius: 10px;
+    }
+}
+
+@keyframes vermilionShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(109, 74, 0, 0.541);
+        border-radius: 10px;
+    }
+}
+
+@keyframes albedoShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+}
+
+@keyframes nigredoShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(0, 0, 0, 0.541);
+        border-radius: 10px;
+    }
+}
+
+@keyframes rubedoShine {
+    from{opacity: 1;}
+    to
+    {
+        background-color: rgba(109, 0, 0, 0.541);
         border-radius: 10px;
     }
 }
