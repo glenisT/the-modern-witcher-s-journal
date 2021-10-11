@@ -159,12 +159,17 @@ h2
     color: rgb(180, 0, 0);
 }
 
+ul
+{
+    margin: 0px 0px 5% 0px;
+    padding: 0px;
+}
+
 li
 {
     font-family: journal;
     font-size: large;
     list-style-position: inside;
-    justify-content: center;
 }
 
 .grid-ingredients
