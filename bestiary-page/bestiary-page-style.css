@@ -424,10 +424,5 @@ html, body
     {
         height: max-content;
     }
-
-    .back
-    {
-        margin-top: -25vh;
-    }
     
 }
