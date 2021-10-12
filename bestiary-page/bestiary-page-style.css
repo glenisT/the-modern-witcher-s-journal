@@ -92,6 +92,12 @@ html, body
     animation: elementsFadeIn 2s;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
+
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .front
