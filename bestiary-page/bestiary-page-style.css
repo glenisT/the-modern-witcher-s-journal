@@ -90,6 +90,36 @@ html, body
     font-size: 17px;
     color: brown;
     animation: elementsFadeIn 4s;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.front
+{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back
+{
+    font-size: medium;
+    justify-content: center;
+    margin-top: -22vh;
+    padding-top: 0vh;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.cell:hover
+{
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cell:active
+{
+    transform: rotateY(180deg);
 }
 
 .cell .cell-title
@@ -251,12 +281,6 @@ html, body
 .descriptions-legends
 {
     margin-top: -30px;
-}
-
-.cell:hover
-{
-    cursor: pointer;
-    margin-top: 40px;
 }
 
 /*-----------Conventional Breakpoints------------------*/
