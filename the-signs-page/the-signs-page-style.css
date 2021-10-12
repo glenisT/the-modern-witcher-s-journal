@@ -492,5 +492,10 @@ div {
     {
         height: max-content;
     }
+
+    .the-signs-title .witcher-transparent-logo
+    {
+        background: rgba(231, 228, 228, 0.342);
+    }
     
 }
